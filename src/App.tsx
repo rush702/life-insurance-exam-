@@ -20,7 +20,7 @@ function AppShell() {
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/life-insurance-exam-/">
       <Routes>
         <Route element={<AppShell />}>
           <Route index element={<HomePage />} />
